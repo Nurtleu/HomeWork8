@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfHomeWork8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHomeWork8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="506.229" Width="627.941">
+    <Grid Margin="-2,0,2,0">
+        <Button x:Name="buttonFigure" Content="Button" Style="{DynamicResource FigureButton}" Margin="10,249,399,0" VerticalAlignment="Top" Height="37"/>
+        <Button x:Name="buttonTriangle" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource ButtonFigure}" VerticalAlignment="Top" Width="304" Height="215"/>
+        <Button x:Name="buttonRound" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource ButtonRound}" Margin="335,10,0,0" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Button" HorizontalAlignment="Left" Style="{DynamicResource ButtonRectangle}" Margin="443,181,0,0" VerticalAlignment="Top" Width="125" Height="105"/>
+        <Button Content="Button" HorizontalAlignment="Left" Style="{DynamicResource ButtonHexagon}" Margin="104,274,0,0" VerticalAlignment="Top" Width="302"/>
+    </Grid>
+</Window>
